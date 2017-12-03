@@ -2,3 +2,35 @@ body {
     background-color: pink;
 }
 
+#green {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    top: 20px;
+    left: 20px;
+    background-color: green;
+    
+}
+
+#red {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    width: 250px;
+    height: 50px;
+    background-color: red;
+}
+#blue {
+    width: 250px;
+    height: 50px;
+    background-color: blue;
+    
+}
+#zafiksowany {
+    background-color: lime;
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    top: 30px;
+    right: 40px;    
+}
