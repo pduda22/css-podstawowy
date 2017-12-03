@@ -1,0 +1,41 @@
+body {
+    background-color: white;
+}
+
+/*selektor zacznika*/
+
+p {
+    color: gray;
+}
+
+/*selektor id*/
+
+#paragraf {
+    color: pink;
+}
+
+a,
+span,
+div {
+    color: blue;
+}
+
+li > a {
+    background-color: yellow;
+}
+
+h2 ~ h3 {
+    color: green;
+}
+
+/*Selektor wykluczajacy*/
+
+ul > li:not(.last) {
+    color: purple;
+}
+
+/*Selektor co ktorys koloruje*/
+
+ol > li:nth-child(2) {
+    background-color: blue;
+}
